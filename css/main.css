@@ -1,0 +1,108 @@
+body {
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 2px -2px gray;
+}
+#logo-image {
+  height: 96px;
+  margin-left: 50px;
+
+}
+
+.social {
+  margin-top: 20px;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+
+}
+.fa-2x {
+  color: black;
+}
+.fa-2x:hover {
+  color: #ffbd1f;
+}
+
+
+nav {
+  display: flex;
+  margin-right: 50px;
+}
+.nav-item {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12px;
+}
+.nav-item:hover {
+  background-color: #ffbd1f;
+  color: black;
+}
+.signup {
+  background-color: rgb(200, 200, 200);
+  color: black;
+}
+.signup:hover {
+  background-color:#ffbd1f ;
+}
+footer {
+  height: 100px;
+  width: 100%;
+  box-shadow: inset 0 4px 2px -2px gray;
+  text-align: center;
+  padding-top: 10px;
+  background-color: white;
+}
+footer p {
+  padding-top: 10px;
+  cursor:default;
+}
+footer p:hover {
+  color: #ffbd1f;
+}
+
+
+.modal-body label {
+  margin-top: 20px;
+}
+.modal-body form {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.form-input {
+  height: 80px;
+  width: 300px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Saira', sans-serif;
+}
+.modal-footer {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  margin: auto;
+}
+
